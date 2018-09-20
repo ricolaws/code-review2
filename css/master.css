@@ -1,3 +1,24 @@
+.jumbotron {
+  background-image: linear-gradient(#2040aa, #40bb80, #aa80ee);
+  color: #ffbbbb;
+  text-decoration: overline;
+}
 body {
-  background-color: #80ddcc;
+  background-color: #ddffaa;
+}
+
+#firstAnswer {
+  display: none;
+}
+
+#secondAnswer {
+  display: none;
+}
+
+#thirdAnswer {
+  display: none;
+}
+
+#fourthAnswer {
+  display: none;
 }
