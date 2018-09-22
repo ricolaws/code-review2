@@ -7,20 +7,26 @@
   /* background-image: linear-gradient(#2040aa, #40bb80, #aa80ee); */
     background-image: url("https://www.freeiconspng.com/uploads/palm-tree-png-32.png");
     color: #ff0080;
-    background-color: #00ddcc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 80%;
+    background-color: #40eedd;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 800;
 }
 
 #right-text {
   text-align: right;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 body {
   /* background-color: #ddffaa; */
   background-image: linear-gradient(#ffddcc, #ddddaa, #80cccc);
-  /* color: #000050; */
-
-  /* background-image: repeat; */
+  font-family: 'Poppins', sans-serif;
 }
+
 
 #firstAnswer {
   display: none;
