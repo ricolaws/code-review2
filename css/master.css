@@ -1,10 +1,25 @@
-.jumbotron {
-  background-image: linear-gradient(#2040aa, #40bb80, #aa80ee);
-  color: #ffbbbb;
-  text-decoration: overline;
+.container {
+  padding: 30px;
+  padding-top: 2px;
 }
+
+.jumbotron {
+  /* background-image: linear-gradient(#2040aa, #40bb80, #aa80ee); */
+    background-image: url("https://www.freeiconspng.com/uploads/palm-tree-png-32.png");
+    color: #ff0080;
+    background-color: #00ddcc;
+}
+
+#right-text {
+  text-align: right;
+}
+
 body {
-  background-color: #ddffaa;
+  /* background-color: #ddffaa; */
+  background-image: linear-gradient(#ffddcc, #ddddaa, #80cccc);
+  /* color: #000050; */
+
+  /* background-image: repeat; */
 }
 
 #firstAnswer {
