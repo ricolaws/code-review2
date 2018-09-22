@@ -14,12 +14,18 @@ $(document).ready(function() {
 
     if (result <= 5) {
       $("#firstAnswer").show();
+      $(".dropDownZone").hide(3000);
+      // $(".jumbotron").css('visibility','hidden')
     }
     else if (result <= 10 && result > 5) {
       $("#secondAnswer").show();
+      $(".dropDownZone").hide(3000);
+      // $(".jumbotron").css('visibility','hidden')
     }
     else if (result <= 15 && result > 10) {
       $("#thirdAnswer").show();
+      $(".dropDownZone").hide(3000);
+      // $(".jumbotron").css('visibility','hidden')
     }
     // else {
     //   $("#fourthAnswer").show();
