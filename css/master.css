@@ -19,12 +19,14 @@
 #right-text {
   text-align: right;
   font-family: 'Nunito Sans', sans-serif;
+  color: white;
 }
 
 body {
-  /* background-color: #ddffaa; */
-  background-image: linear-gradient(#ffddcc, #ddddaa, #80cccc);
+  background-color: black;
+  /* background-image: linear-gradient(#ffddcc, #ddddaa, #80cccc); */
   font-family: 'Poppins', sans-serif;
+  color: #40eedd;
 }
 
 
