@@ -1,10 +1,10 @@
-# Vacation Destination Recommendation
+# [Vacation Destination Recommendation](https://github.com/ricolaws/code-review2.git)
 
 #### A website demonstrating the use of forms and JQuery, Sept 2018  
 
 #### By Richard Laws
 
-## This website presents the user with 5 absurd questions, then suggests one of three travel destinations based on these responses. Though the website uses branching dependent upon the user's input, each suggestion is a non-sequitur.
+### This website presents the user with 5 absurd questions, then suggests one of three travel destinations based on these responses. Though the website uses branching dependent upon the user's input, each suggestion is a non-sequitur.
 
 ## Setup
 
