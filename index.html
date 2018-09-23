@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,800i|Poppins:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,800i" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/master.css">
@@ -22,17 +22,17 @@
             <img src="media/metal-head.gif" alt="">
           </div>
           <div class="col-md-6">
-            <h4 id="right-text">The 5 questions below are carefully constructed to ensure total understanding of your preferences and personality, with that information, our super-advanced AI can make a confident suggestion of your prefered travel destination with an accuracy level of 99.4%. Please select from the list the correct responses and let our omniscient algorithms calculate the rest!</h4>
+            <h4 id="right-text">The 5 questions below are carefully constructed to ensure total understanding of your preferences and personality. With this information our super-advanced AI will reveal to you your prefered travel destination with an accuracy level of 99.4%. <hr>Please select from the list the correct responses and let our omniscient algorithms calculate your vacation!</h4>
           </div>
         </div>
         <form>
-          <h4>What is your spirit animal?</h4>
-          <select id="q1" class="form-control">
+          <h4>You can only use one word for the rest of the year, what is it?</h4>
+          <select id="q3" class="form-control">
             <option value="" disabled selected>Select your option</option>
-            <option value="0" class="choice1">Red-Crested Tree Rat</option>
-            <option value="1" class="choice2">Malayan Tapir</option>
-            <option value="2" class="choice3">Goldendoodle</option>
-            <option value="3" class="choice4">Bug</option>
+            <option value="0" class="choice1">"Yas"</option>
+            <option value="1" class="choice2">"Huge"</option>
+            <option value="2" class="choice3">"Aberrant"</option>
+            <option value="3" class="choice4">"Permissable"</option>
           </select>
           <h4>Who would win in a fight?</h4>
           <select id="q2" class="form-control">
@@ -42,13 +42,13 @@
             <option value="2" class="choice3">Jackie Chan in the Chinese release of Walt Disney's Mulan</option>
             <option value="3" class="choice4">Jean Claude van Damme in that Volvo commercial</option>
           </select>
-          <h4>If you could only use one word for the rest of the year what would it be?</h4>
-          <select id="q3" class="form-control">
+          <h4>What is your spirit animal?</h4>
+          <select id="q1" class="form-control">
             <option value="" disabled selected>Select your option</option>
-            <option value="0" class="choice1">"Yas"</option>
-            <option value="1" class="choice2">"Huge"</option>
-            <option value="2" class="choice3">"Aberrant"</option>
-            <option value="3" class="choice4">"Permissable"</option>
+            <option value="0" class="choice1">Red-Crested Tree Rat</option>
+            <option value="1" class="choice2">Malayan Tapir</option>
+            <option value="2" class="choice3">Goldendoodle</option>
+            <option value="3" class="choice4">Bug</option>
           </select>
           <h4>Of the less-popular flavors of Takis which is the most interesting?</h4>
           <select id="q4" class="form-control">
@@ -66,26 +66,28 @@
             <option value="2" class="choice3">I might consider it if there were no other options</option>
             <option value="3" class="choice4">I might not consider it</option>
           </select>
-          <button type="submit" value="submit" class="btn-success">Submit!</button>
+          <hr>
+          <button type="submit" value="submit" class="btn">Submit!</button>
         </form>
-      </div>
+      </div class="destinations">
         <div id="firstAnswer">
-          <h2>Congratulations!</h2>
-          <p>Our data suggests that your ideal travel destination is Chengdu, China!</p>
+          <h2 class="congrats">Congratulations!</h2>
+          <p class="white">Our data suggests that your ideal travel destination is Chengdu, China!<br>
+          Chengdu is the capital of southwestern China's Sichuan province. The city is also home to the famous Chengdu Research Base, where you can see a giant panda!</p>
           <img src="media/chengdu.jpg" alt="Chengdu">
-          <p>Chengdu is the capital of southwestern China's Sichuan province. The city is also home to the famous Chengdu Research Base of Giant Panda Breeding, where you can see a giant panda!</p>
         </div>
         <div id="secondAnswer">
-          <h2>Congratulations!</h2>
-          <p>Our data suggests that your ideal travel destination is the Nation of Brunei.</p>
+          <h2 class="congrats">Congratulations!</h2>
+          <p class="white">Our data suggests that your ideal travel destination is the Nation of Brunei, the Abode of Peace.<br>
+          Brunei is a sovereign state on the island of Borneo and one of the wealthiest nations in the world.
+          </p>
           <img src="media/brunei.jpg" alt="the nation of brunei">
-          <p>The Nation of Brunei, the Abode of Peace, is a sovereign state on the island of Borneo and one of the wealthiest nations in the world.</p>
         </div>
         <div id="thirdAnswer">
-          <h2>Congratulations!</h2>
-          <p>Our data suggests that your ideal travel destination is The Kingdom of Lesotho!</p>
+          <h2 class="congrats">Congratulations!</h2>
+          <p class="white">Our data suggests that your ideal travel destination is The Kingdom of Lesotho!<br>
+          Lesotho is a mountainous, landlocked country completely surrounded by the Republic of South Africa.</p>
           <img src="media/lesotho.jpg" alt="lesotho village">
-          <p>Lesotho is a mountainous, landlocked country completely surrounded by the Republic of South Africa, that was first settled by Bantu speaking people who called themselves the Basotho.</p>
         </div>
     </div>
   </body>
